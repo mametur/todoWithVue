@@ -32,6 +32,10 @@ export default {
     background: #f4f4f4;
     padding: 10px;
     border-bottom: 1px #ccc dotted;
+    text-align: initial;
+}
+.todo-item:hover {
+    background-color: #21f3f3;
 }
 .is-completed {
     text-decoration: line-through;
